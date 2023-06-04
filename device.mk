@@ -531,5 +531,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# ADB InSecure For userdebug Build
+include $(DEVICE_PATH)/configs/properties/default.mk
+
 # Signed
 -include vendor/lineage-priv/keys/keys.mk
