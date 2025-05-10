@@ -2,6 +2,13 @@
 #clover Vendor Setup Script
 echo "Setting up repositories for Redmi 12 5G / Poco M6 Pro 5G (sky)..."
 
+# BCR
+echo "Cloning BCR repository..."
+
+git clone https://github.com/Chaitanyakm/vendor_bcr.git vendor/bcr
+
+echo "done"
+
 # Clone the kernel source
 echo "Cloning kernel repository..."
 git clone https://github.com/askthekaif/android_xiaomi_sky_kernel.git device/xiaomi/sky-kernel

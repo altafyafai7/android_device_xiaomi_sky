@@ -23,12 +23,10 @@ $(call inherit-product, $(DEVICE_PATH)/device.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/sky/sky-vendor.mk)
 
-# Evolution-X Flags
+# Derp Flags
 TARGET_BOOT_ANIMATION_RES := 1080
-WITH_GMS := true
-USE_PIXEL_CHARGER := true
-TARGET_INCLUDE_ACCORD := false
-BUILD_BCR := true
+DERPFEST_BUILD_TYPE := Unofficial
+DERPFEST_BUILD_VARIANT := Stable
 
 ## Device identifier
 PRODUCT_DEVICE := sky
