@@ -10,6 +10,10 @@ git clone https://github.com/askthekaif/android_xiaomi_sky_kernel.git -b 15.0-At
 echo "Cloning vendor repository..."
 git clone https://github.com/askthekaif/android_vendor_xiaomi_sky.git -b 16.0 vendor/xiaomi/sky
 
+# Clone BCR repository
+echo "Cloning BCR repository..."
+rm -rf vendor/bcr && git clone https://github.com/Chaitanyakm/vendor_bcr.git vendor/bcr
+
 # Clone the dolby repository
 echo "Cloning dolby hardware repository..."
 git clone https://github.com/askthekaif/android_hardware_dolby.git hardware/dolby
