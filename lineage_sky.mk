@@ -25,8 +25,8 @@ $(call inherit-product, vendor/xiaomi/sky/sky-vendor.mk)
 
 # Evolution-X Flags
 TARGET_BOOT_ANIMATION_RES := 1080
-WITH_GMS := true
-USE_PIXEL_CHARGER := true
+#WITH_GMS := true
+#USE_PIXEL_CHARGER := true
 TARGET_INCLUDE_ACCORD := false
 BUILD_BCR := true
 
