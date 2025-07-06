@@ -30,12 +30,16 @@ USE_PIXEL_CHARGER := true
 TARGET_INCLUDE_ACCORD := false
 BUILD_BCR := true
 
-## Device identifier
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Device identifier. This must come after all inclusions.
+PRODUCT_NAME := yaap_sky
 PRODUCT_DEVICE := sky
-PRODUCT_NAME := lineage_sky
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 23076RN4BI
 PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_SYSTEM_NAME := sky
+
 
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
