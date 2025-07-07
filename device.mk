@@ -535,5 +535,8 @@ PRODUCT_BOOT_JARS += \
 # ADB InSecure For userdebug Build
 include $(DEVICE_PATH)/configs/properties/default.mk
 
+# BCR
+$(call inherit-product, vendor/bcr/bcr.mk)
+
 # Signed
 -include vendor/lineage-priv/keys/keys.mk
